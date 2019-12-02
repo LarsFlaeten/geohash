@@ -77,7 +77,7 @@ int main(int argc, char** argv) {
     if(encode) { 
         auto lat = result["latitude"].as<double>();
         auto lon = result["longitude"].as<double>(); 
-        double accuracy = 0.0;
+        double accuracy = 1.0;
         if(result.count("accuracy"))
             accuracy = result["accuracy"].as<double>();
 
