@@ -1,7 +1,9 @@
-# simple_cpp_exec
-Just a minimal skeleton build tree for simple c++ execs.
+# GeoHASH
 
-Put external libraries and headers in `libraries/`.
+A minimal librabry for encoding and decoding geohashes. Includes an example CLI app, and a small bash script for pulling geohashes from geohash.org for testing.
+
+Based on libgeohash.
+
 
 To build:
 ```
